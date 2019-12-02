@@ -1,0 +1,23 @@
+{
+    "name": "simplerest",
+    "version": "1.0.0",
+    "description": "This is example of RESTFull API from DILoPAD",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "nodemon src/index.js"
+    },
+    "keywords": [
+        "RESTFull",
+        "Api"
+    ],
+    "author": "Dhea Aria Rachman",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.1"
+    }
+}
